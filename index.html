@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempertaure Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="./action.php">
+        <h1>Temperature Convertor</h1>
+        <input type="number" id="textbox" value="0">
+        <br>
+
+        
+        <label for="ctof">
+            <input type="radio" value="toFarhe" id="ctof" name="xd">Celsius ➡️ Fahrenheit</label>
+        <br>
+
+        
+        <label for="ftoc">
+            <input type="radio" value="tocelcius" id="ftoc" name="xd">Fahrenheit ➡️ Celsius</label>
+        <br>
+
+        <button type="button" onclick="convert()">Submit</button>
+        <p id="result"></p>
+
+
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
